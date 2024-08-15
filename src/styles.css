@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+/* styles.css o styles.scss */
+
+:root {
+    --color-1: #EF6262;
+    --color-2: #3FAABC;
+    --color-3: #22A699;
+    --color-4: #F3E99F;
+    --color-5: #F3AA60;
+    --color-6: white;
+  }
+  
+  .tema-claro {
+    --color-1: #EF6262;
+    --color-2: #3FAABC;
+    --color-3: #22A699;
+    --color-4: #F3E99F;
+    --color-5: #F3AA60;
+    --color-6: white;
+  }
+  
+  .tema-oscuro {
+    --color-1: #8e3a3a;
+    --color-2: #246671;
+    --color-3: #13685f;
+    --color-4: #9b935b;
+    --color-5: #9a6b3c;
+    --color-6: #6d6d6d63;
+  }
+  
