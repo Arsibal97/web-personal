@@ -1,0 +1,65 @@
+/* Contenedor del portafolio */
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Título del portafolio */
+  .portfolio-container h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  /* Cuadrícula de portafolio */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Elemento del portafolio */
+  .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Imagen del proyecto */
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Efecto de hover para la imagen */
+  .portfolio-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* Enlace del proyecto */
+  .portfolio-link {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: white 1px solid;
+  }
+  
+  /* Efecto de hover para el enlace */
+  .portfolio-link:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
