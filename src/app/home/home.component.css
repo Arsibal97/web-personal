@@ -1,0 +1,33 @@
+.todo{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 67, 67);
+
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fcdf9b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.container img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.container p {
+    font-size: 18px;
+    color: #333;
+}
